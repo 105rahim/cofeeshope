@@ -1,0 +1,288 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 576px) {
+    .nav-link{
+        text-align: center;
+     }
+     #about h4{
+        text-align: center;
+     }
+     #about p{
+        text-align: center;
+     }
+     #product .card{
+        width: 400px;
+        margin-left: 2rem;
+     }
+     #review .card{
+        width: 400px;
+        margin-left: 2rem;
+     }
+     #contact{
+        text-align: justify;
+        text-align: center;
+     }
+     #contact .para{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: justify;
+     }
+     #contact button{
+        margin-right: 4rem;
+     }
+     #contact .card{
+        width: 400px;
+        margin-left: 2rem;
+     }
+     #contact form{
+    
+     }
+    
+}
+#hero{
+    height: 800px;
+   background-image: url('../images/images\ \(19\).jpeg');
+   background-size: cover;
+   background-position: left;
+   background-attachment: fixed;
+}
+.navbar-toggler-icon{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 3rem;
+    color: white;
+    margin-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-nav{
+  margin-left: 4rem;
+}
+.nav-item{
+ padding: 1rem;
+ 
+}
+.nav-link{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+.nav-link:hover{
+   background-color: rgb(59, 235, 223);
+}
+.form-control{
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    margin-right: -60px;
+}
+.btn{
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+#about{
+    height: 100%;
+    background-color: white;
+}
+#about h4{
+    margin-top: 4rem;
+    color: red;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    font-style: italic;
+    
+}
+#about p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-shadow: 0px 5px 3px red;
+}
+#about .img-fluid{
+    height: 400px;
+}
+#product{
+    margin-top: 1rem;
+    background-color: white;
+    height: 100%;
+}
+#product .card{
+    margin-top: 2rem;
+    transition: 3s;
+    box-shadow: 0 5px 10px 0 ;
+}
+#product .img-fluid{
+   height: 150px;
+}
+#product .card:hover{
+    transform: scale(1.1);
+}
+#product .card-body{
+    text-align: center;
+}
+#product button{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+#product button:hover{
+    background-color: white;
+    color: black;
+    border: 2px dashed red;
+}
+#review{
+    background-color: white;
+    color: black;
+    height: 100%;
+    margin-top: 1rem;
+}
+#review .card{
+   margin-top: 1rem;
+   transition: 3s;
+   box-sizing: border-box;
+   box-shadow: 0 5px 10px 0 ;
+}
+#review .img-fluid{
+    height: 200px;
+}
+
+#review p{
+  color: white;
+}
+#review .card-body{
+    text-align: center;
+}
+#review button{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    transition: 2s;
+}
+#review button:hover{
+   transform: scale(1.2);
+}
+#contact{
+    background-color: white;
+    color: black;
+    height: 100%;
+    margin-top: 2rem;
+}
+.icon{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: 8px;
+    background-color: white;
+    color: crimson;
+}
+.right{
+    
+}
+.text{
+    margin-left: 2.5rem;
+}
+.icon:hover{
+    background-color: rgb(18, 158, 213);
+}
+#contact .para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-shadow: 0px 5px 3px red;
+}
+#contact .card{
+    box-shadow: 0 5px 10px 0 ;
+}
+#contact form{
+    margin-left: 8rem;
+}
+#contact label{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(219, 14, 14);
+}
+#contact .form-control1{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(8, 225, 189);
+}
+#contact .form-control2{
+    width: 250px;
+    height: 120px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(8, 225, 189);
+}
+#contact button{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: brown;
+    color: white;
+}
+#footer{
+    margin-top: 3rem;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#footer ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+}
+#footer ul li{
+    padding: 6px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer ul li a:hover{
+    border-bottom: 2px solid rgb(245, 241, 241);
+}
+.social-link a{
+    color: white;
+}
+
+ .social-link i{
+    font-size: 30px;
+    padding: 8px;
+ }
+ .social-link i:hover{
+    color: rgba(202, 12, 183, 0.354);
+ }
+ .bi-arrow-up-circle{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    float: right;
+ }
